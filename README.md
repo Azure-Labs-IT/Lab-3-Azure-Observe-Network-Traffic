@@ -54,7 +54,7 @@ Launch Wireshark after installation:  <br/>
 
 
 <p align="center">
-You should see a list of Network adapters if not one .Look for ethernet if there are more than one, it might be different for you but look for an interface that's showing traffic move (the up and down lines are traffic)<br/>
+You should see a list of Network adapters if not one .Look for ethernet if there are more than one, it might be different for you but look for an interface that's showing traffic movement (the up and down lines are traffic)<br/>
 <img src="https://github.com/Azure-Labs-IT/Lab-3/blob/main/4.%20Look%20for%20ethernet%20on%20Wireshark%2C%20it%20might%20be%20different%20for%20you%20but%20look%20for%20an%20interface%20that's%20showing%20traffic.png" height="80%" width="80%" alt="Look for the/a Network adapter with traffic"/>
 <br />
 <br />
