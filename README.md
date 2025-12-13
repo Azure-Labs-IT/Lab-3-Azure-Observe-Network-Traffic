@@ -89,14 +89,14 @@ During installation make sure you enable NPCAP. This should be enabled on Window
 </p>
 
 <p align="center">
-9. Now let's look into what each packet entails .Under "Ethernet Ⅱ" you will find Layer 2 info like the Mac addresses. The Mac address will switch depending on the type of packet it was. The packet types are either request or response. Request type being the Windows Virtual Machine sending the ping request to the Linux Virtual Machine making it the Source Mac Address as the packet came from it and the Response type being the response received from the Linux Virtual making it the destination Mac Address:  <br/>
+9. Now let's look into what each packet entails .Under "Ethernet Ⅱ" you will find Layer 2 info of the OSI model like the Mac addresses. The Mac address will switch depending on the type of packet it was. The packet types are either request or response. Request type being the Windows Virtual Machine sending the ping request to the Linux Virtual Machine making it the Source Mac Address as the packet came from it and the Response type being the response/reply received from the Linux Virtual making it the destination Mac Address:  <br/>
 <img src="https://github.com/Azure-Labs-IT/Lab-3/blob/main/9.%20Under%20Ethernet%202%20you%20will%20find%20Layer%202%20info%20like%20the%20Mac%20address.%20It%20will%20switch%20depending%20on%20the%20type%20of%20packet%20it%20was%2C%20request%20or%20reply.png" height="80%" width="80%" alt="Ethernet 2 Info and what it has"/>
 <br />
 <br />
 </p>
 
 <p align="center">
-10. Under "Internet Protocol Version" you will find Layer 3 info like IP addresses for the source and destination IP addresses. These will switch depending on the packet type, either request or reply. Request type being the Windows Virtual Machine sending the ping request to the Linux Virtual Machine making it the Source IP as the packet came from it and the Reply type being the response received from the Linux Virtual making it the destination IP :  <br/>
+10. Under "Internet Protocol Version" you will find Layer 3 info of the OSI model like IP addresses for the source and destination IP addresses. These will switch depending on the packet type, either request or response. Request type being the Windows Virtual Machine sending the ping request to the Linux Virtual Machine making it the Source IP as the packet came from it and the Response type being the response/reply received from the Linux Virtual making it the destination IP :  <br/>
 <img src="https://github.com/Azure-Labs-IT/Lab-3/blob/main/10.%20Under%20Internet%20Protocol%20Version%20you%20will%20find%20Layer%203%20info%20like%20IP%20addresses%20for%20the%20source%20and%20destination.%20These%20will%20switch%20depending%20on%20the%20packet%20type.png" height="80%" width="80%" alt="Internet protocol version and what it is"/>
 <br />
 <br />
