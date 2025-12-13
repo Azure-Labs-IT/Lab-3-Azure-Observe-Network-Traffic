@@ -38,6 +38,7 @@ How to install and use a packet sniffer(WireShark) with the ping command to moni
 <p align="center">
 2. 🔴VERY IMPORTANT When installing!!: <br/> 
 During installation make sure you enable NPCAP. This should be enabled on Windows because it's the essential packet capture driver that allows Wireshark to see and capture live network traffic, putting your network interface into "promiscuous mode" to see all data, not just data addressed to your machine. Without Npcap, Wireshark can only open saved capture files (like .pcap or .pcapng) but can't sniff packets directly from the network. So basically without it enabled, Wireshark cannot "see" any real-time network traffic and can only be used to analyze pre-saved capture files stored on your pc
+    <br/>
 <b>(If this is not enabled, Wireshark cannot access your network adapter to initiate a live capture session. The interface list will show a "Local interfaces are unavailable because no packet capture driver is installed" error, and no packets can be captured live. The NPCAP tells the network adapter to go into acccept all traffic mode and thus allowing wireshark to see the live network traffic.)
 </b> 
  <br />
