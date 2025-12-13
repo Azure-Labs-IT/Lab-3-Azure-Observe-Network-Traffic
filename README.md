@@ -27,7 +27,7 @@ How to install and use a packet sniffer(WireShark) with the ping command to moni
 <h2>Labs walk-through:</h2>
 
 <p align="center">
-1. On your Windows Virtual Machine go to <a href="https://www.wireshark.org/download.html">Wireshark's Website</a> and download and install Wireshark for your Windows Operating System: <br/>
+1. On your Windows Virtual Machine go to <a href="https://www.wireshark.org/download.html" target="_blank" rel="noopener noreferrer" >Wireshark's Website</a> and download and install Wireshark for your Windows Operating System: <br/>
 <img src="https://github.com/Azure-Labs-IT/Lab-3/blob/main/1.%20Download%20and%20install%20wireshark%20for%20your%20OS%20on%20the%20Windows%20VM.png" height="80%" width="80%" alt="Choose right Wireshark install file for your OS"/>
 <img src="https://github.com/Azure-Labs-IT/Lab-3/blob/main/1.%20Download%20and%20install%20WireShark.png" height="80%" width="80%" alt="Download and Install Wireshark"/>
 <br />
