@@ -111,7 +111,7 @@ During installation make sure you enable NPCAP. This should be enabled on Window
 
 
 <p align="center">
-<b> And you're done now ,you have now successfully observed simple traffic between two virtual machines in the a subnet. Don't forget to disable/stop your virtual machines on Azure once done(remember you pay as you use): </b>  <br/>
+<b> And you're done now ,you have now successfully observed simple traffic between two virtual machines in a subnet. Don't forget to disable/stop your virtual machines on Azure once done(remember you pay as you use): </b>  <br/>
 </p>
 
 <!--
