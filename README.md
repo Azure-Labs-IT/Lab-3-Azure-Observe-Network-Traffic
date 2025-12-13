@@ -20,7 +20,8 @@ How to install and use a packet sniffer(WireShark) with the ping command to moni
 <h2>Prerequisites </h2>
 
 - <b>An Azure Account/Subscription (paid or free)</b>
-- <b>Pre-Created Resource Group</b> (See Lab 1: <a href="https://github.com/Azure-Labs-IT/Lab-1-Azure/blob/main/README.md"> How to create Resource Group</a>)
+- <b>Pre-Created Resource Group</b> <br/>
+    (See Lab 1: <a href="https://github.com/Azure-Labs-IT/Lab-1-Azure/blob/main/README.md"> How to create Resource Group</a>)
 - <b>Pre-Created Virtual Machines in the same resource group and subnet. One Linux Virtual Machine and One Windows Virtual Machine</b> <br/>
     (See Lab 1: <a href="https://github.com/Azure-Labs-IT/Lab-1-Azure/blob/main/README.md"> How to create a Virtual Machine(s)</a>)
 
