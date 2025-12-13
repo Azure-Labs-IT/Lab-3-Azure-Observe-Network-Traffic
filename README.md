@@ -68,7 +68,7 @@ Double-Click on Ethernet or click on it and then click on the Shark Icon to obse
 </p>
 
 <p align="center">
-You should see the traffic and individual packets visible to that adapter and on the network from here. This includes their port number and what protocol they/the packets use. The Port Number for the/a packet will be visible under the "Info" Column and the Protocol the packet used will be visible under the "Protocol" column. The IP address of Where the Packet came from otherwise known as the source IP address will be under the "Source" column and the Destination/IP address the packet is going to will be visible under the "Destination" column:  <br/>
+You should see the traffic and individual packets visible to that adapter and on the network from here. This includes their port number and what protocol they/the packets use. The Port Number for the/a packet will be visible under the "Info" Column and the Protocol the packet used will be visible under the "Protocol" column. The IP address stating where the Packet came from otherwise known as the source IP address will be under the "Source" column and the Destination/IP address showing the where the packet is going should be visible under the "Destination" column:  <br/>
 <img src="https://github.com/Azure-Labs-IT/Lab-3/blob/main/6.%20You%20should%20see%20the%20traffic%20for%20that%20adapter%20from%20here.%20This%20includes%20their%20port%20number%20and%20what%20protocol%20they%20use.png" height="80%" width="80%" alt="View Packets and Packet details"/>
 <br />
 <br />
@@ -80,14 +80,14 @@ You can filter the packets by their protocols/Port number of the protocol in ord
 </p>
 
 <p align="center">
-Since we are going to be observing the traffic between Two Virtual Machines on a Subnet we will need to test the responsiveness of the Linux virtual machine by pinging it's private IP address via the Windows Virtual Machine PowerShell tool. To find the Private IP address of the Linux Virtual Machine go to your Azure Account under your virtual Machines, select the Pre-created Linux Virtual Machine. Under the Virtual Machines Network/Networking Info ,copy the Private IP address for the Linux Virtual Machine and paste it in Powershell of the Windows Virtual Machine after the ping command (for example ping 173.4.13.0) and press enter. The ping process should show in Powershell. Since we already filtered based on the ICMP Protocol you should now only see the packets being exchanged between the two Virtual Machines displayed on Wireshark:<br/>
-<img src="https://github.com/Azure-Labs-IT/Lab-3/blob/main/8COPYT~1.PNG" height="80%" width="80%" alt="Copy private IP and Ping"/>
+Since we are going to be observing the traffic between Two Virtual Machines on a Subnet we will need to test the responsiveness of the Linux virtual machine by pinging it's private IP address via the Windows Virtual Machine PowerShell tool. To find the Private IP address of the Linux Virtual Machine go to your Azure Account and then under your virtual Machines, select the Pre-created Linux Virtual Machine. Under the Virtual Machines Network/Networking Info ,copy the Private IP address for the Linux Virtual Machine and paste it after the ping command in Powershell of the Windows Virtual Machine (for example ping 173.4.13.0) and press enter. The ping echo request and reply process should then show in Powershell. Since we already filtered based on the ICMP Protocol you should now only see the packets being exchanged between the two Virtual Machines displayed on WireShark:<br/>
+<img src=""80%" width="80%" alt="Copy private IP and Ping"/>
 <br />
 <br />
 </p>
 
 <p align="center">
-Now let's look into what each packet entails .Under "Ethernet Ⅱ" you will find Layer 2 info like the Mac addresses. The Mac address will switch depending on the type of packet it was. The packet types are either request or reply. Request type being the Windows Virtual Machine sending the ping request to the Linux Virtual Machine making it the Source Mac Address as the packet came from it and the Reply type being the response received from the Linux Virtual making it the destination Mac Address:  <br/>
+Now let's look into what each packet entails .Under "Ethernet Ⅱ" you will find Layer 2 info like the Mac addresses. The Mac address will switch depending on the type of packet it was. The packet types are either request or response. Request type being the Windows Virtual Machine sending the ping request to the Linux Virtual Machine making it the Source Mac Address as the packet came from it and the Response type being the response received from the Linux Virtual making it the destination Mac Address:  <br/>
 <img src="https://github.com/Azure-Labs-IT/Lab-3/blob/main/9.%20Under%20Ethernet%202%20you%20will%20find%20Layer%202%20info%20like%20the%20Mac%20address.%20It%20will%20switch%20depending%20on%20the%20type%20of%20packet%20it%20was%2C%20request%20or%20reply.png" height="80%" width="80%" alt="Ethernet 2 Info and what it has"/>
 <br />
 <br />
