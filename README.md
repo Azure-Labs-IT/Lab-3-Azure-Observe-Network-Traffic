@@ -35,9 +35,9 @@ On your Windows Virtual Machine go to <a href="https://www.wireshark.org/downloa
 </p>
 
 <p align="center">
-<style color="red">VERY IMPORTANT:</style> <br/> 
-Click on Install NPCAP during installation. This should be enabled on Windows because it's the essential packet capture driver that allows Wireshark to see and capture live network traffic, putting your network interface into "promiscuous mode" to see all data, not just data addressed to your machine. Without Npcap, Wireshark can only open saved capture files (like .pcap or .pcapng) but can't sniff packets directly from the network, as Npcap handles the low-level interaction with your network adapter. So basically without it enabled, Wireshark cannot "see" any real-time network traffic and can only be used to analyze pre-saved capture files stored on your pc
-<b>(If this is not enabled, Wireshark cannot access your network adapter to initiate a live capture session. The interface list will show a "Local interfaces are unavailable because no packet capture driver is installed" error, and no packets can be captured live. The NPCAP tells the network adapter to go into acccept all traffic and thus allowing wireshark to see the live network traffic.)
+🔴VERY IMPORTANT!!: <br/> 
+Click on Install NPCAP during installation. This should be enabled on Windows because it's the essential packet capture driver that allows Wireshark to see and capture live network traffic, putting your network interface into "promiscuous mode" to see all data, not just data addressed to your machine. Without Npcap, Wireshark can only open saved capture files (like .pcap or .pcapng) but can't sniff packets directly from the network. So basically without it enabled, Wireshark cannot "see" any real-time network traffic and can only be used to analyze pre-saved capture files stored on your pc
+<b>(If this is not enabled, Wireshark cannot access your network adapter to initiate a live capture session. The interface list will show a "Local interfaces are unavailable because no packet capture driver is installed" error, and no packets can be captured live. The NPCAP tells the network adapter to go into acccept all traffic mode and thus allowing wireshark to see the live network traffic.)
 </b> 
  <br />
 <img src="https://github.com/Azure-Labs-IT/Lab-3/blob/main/2.%20Make%20sure%20to%20enable%20NPCAP%20during%20installation%2C%20this%20%20allows%20Wireshark%20to%20access%20and%20analyze%20network%20traffic%20effectively.%20USBcap%20is%20not%20essential.png" height="80%" width="80%" alt="Enable NPCAP"/>
@@ -52,19 +52,6 @@ Launch Wireshark after installation:  <br/>
 <br />
 </p>
 
-<p align="center">
-Name your Virtual Machine, I would suggest giving it a name that indicates the OS it will be using, for example if you're creating a Windows OS Virtual Machine naming it something like "WindowsVM" would be a good idea(this is in the case you have multple VMs with different OS on each, otherwise name it what you want): <br/>
-<img src="https://github.com/Azure-Labs-IT/Lab-2-Azure/blob/main/4%20Name%20VM%20based%20on%20the%20OS%20version%20you%20want%20to%20use%20or%20preferred%20name.png" height="80%" width="80%" alt="Name VM based on OS"/>
-<br />
-<br />
-</p>
-
-<p align="center">
-Choose an Ooperating System(OS) your Virtual Machine will be using. If the Virtual Machine is for personal use I would suggest choosing an operating system you are used to, for me that would be Windows but it may differ from person to person. Alternatively you can choose a different OS as practice to familairize yourself with that Operating System and it's shortcuts and overal functionality:  <br/>
-<img src="https://github.com/Azure-Labs-IT/Lab-2-Azure/blob/main/5%20Choose%20OS%20version%20for%20VM%20under%20image%20options.png" height="80%" width="80%" alt="Choose OS for VM"/>
-<br />
-<br />
-</p>
 
 <p align="center">
 You should see a list of Network adapters if not one .Look for ethernet if there are more than one, it might be different for you but look for an interface that's showing traffic move (the up and down lines are traffic)<br/>
