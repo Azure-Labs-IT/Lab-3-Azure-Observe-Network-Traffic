@@ -81,7 +81,7 @@ You can filter the packets by their protocols/Port number of the protocol in ord
 
 <p align="center">
 Since we are going to be observing the traffic between Two Virtual Machines on a Subnet we will need to test the responsiveness of the Linux virtual machine by pinging it's private IP address via the Windows Virtual Machine PowerShell tool. To find the Private IP address of the Linux Virtual Machine go to your Azure Account and then under your virtual Machines, select the Pre-created Linux Virtual Machine. Under the Virtual Machines Network/Networking Info ,copy the Private IP address for the Linux Virtual Machine and paste it after the ping command in Powershell of the Windows Virtual Machine (for example ping 173.4.13.0) and press enter. The ping echo request and reply process should then show in Powershell. Since we already filtered based on the ICMP Protocol you should now only see the packets being exchanged between the two Virtual Machines displayed on WireShark:<br/>
-<img src=""80%" width="80%" alt="Copy private IP and Ping"/>
+<img src="https://github.com/Azure-Labs-IT/Lab-3/blob/main/8COPYT~1.PNG" width="80%" alt="Copy private IP and Ping"/>
 <br />
 <br />
 </p>
