@@ -1,5 +1,5 @@
 # Lab-3-Azure
-Installing and Using a packet sniffer(WireShark) to monitor Simple Network Traffic in a subnet 
+This lab provides a hands-on introduction to network security and troubleshooting by deploying Wireshark, the industry-standard packet sniffer, to monitor traffic within a subnet. You will learn to install the necessary capture drivers (such as Npcap or WinPcap) and configure network interfaces to capture live data packets. The project guides you through essential analysis techniques, including using Capture and Display Filters to isolate specific protocols like TCP, HTTP, and ICMP. 
 <h1>WireShark installation and usage</h1>
 
 <h2>Description</h2>
